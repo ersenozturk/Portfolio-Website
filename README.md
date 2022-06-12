@@ -13,11 +13,6 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
-
-- [Built With](#built-with)
-- [Contact](#contact)
-
 
 ### Built With
 
