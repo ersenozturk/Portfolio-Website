@@ -5,7 +5,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://ersenozturk.github.io/Portfolio-Website/">
+    <a href="https://ersenozturk-portfolio-website.netlify.app/">
       Link
     </a>
   </h3>
