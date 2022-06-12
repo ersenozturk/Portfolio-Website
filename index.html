@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" onload="scrollFunction()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Ersen OZTURK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <link rel="shortcut icon" href="images/arrow-32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4997d23d1.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="myFunction()">
+    <header id="home">
+        <nav>
+            <input type="checkbox" id="check">
+            <h2 class="logo" id="sig-log"><a href="#home">ERSEN</a></h2>
+            <ul class="links" id="menu-link">
+                <!-- <img src="images/menu-img.jpeg" alt=""> -->
+                <li class="about" id="link"><a href="#about">About</a></li>
+                <li class="work" id="link"><a href="#work">My Work</a></li>
+                <li class="pricing" id="link"><a href="#pricing">Process & Pricing</a></li>
+                <li class="contact" id="link"><a href="#contact">Contact</a></li>
+                <a class="resume" href="images/ErsenOZTURK-FrontEndDeveloper.pdf" target="_blank"><button type="button">DOWNLOAD CV IN
+                        PDF</button></a>
+            </ul>
+            <label for="check" class="icon" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+        <section class="content">
+            <h1><span>Ersen OZTURK</span></h1>
+            <p>Front-End Developer | Software Engineer | Freelancer</p>
+            <div>
+                <a href="#about"><button type="button">EXPLORE</button></a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="about-me" id="about">
+            <h2>About Me</h2>
+            <div class="text">
+                <img src="images/image.png" alt="">
+                <p>A front-end web developer and programmer. Well-versed in the design and development
+                    of websites and applications using techonologies such as CSS, JavaScript and
+                    frameworks and libraries such as Bootstrap and JQuery.<br><br>
+                    Seek to provide clients with a very interactive and responsive online presence
+                    that is accessible to all users, regardless of the device; meticulously ensuring
+                    the delivery of products that meet expectation.<br><br>
+                </p>
+            </div>
+            <h2 style="color: #009688;">MAIN Toolbox</h2>
+            <div class="icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-git-square"></i>
+            </div>
+        </section>
+        <section class="my-work" id="work">
+            <h2>Portfolio</h2>
+            <p id="fp">FEATURED PROJECTS</p>
+            <div class="work-container">
+                <ul id="lightSlider">
+                    <li>
+                        <div class="work-item" id="hotel">
+                            <div class="work-text">
+                                <h3>Delux Hotel Site</h3>
+                                <p>Designing a responsive page without using float and position with "Flexible Box Layout Module".</p>
+                                <a href="https://github.com/ersenozturk/hotel-site-project" target="_blank"><button class="btn1"
+                                        type="button">GITHUB</button></a>
+                                <a href="https://ersenozturk.github.io/hotel-site-project/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="recipe">
+                            <div class="work-text">
+                                <h3>Pizza Site</h3>
+                                <p>I used React Hooks, Rest APIs, and styled components. It has a search section and you can seek any recipe with its ingredient.</p>
+                                <a href="https://github.com/ersenozturk/react-recipe-app" target="_blank"><button class="btn1"
+                                        type="button">GITHUB</button></a>
+                                <a href="https://ersenozturk.github.io/react-recipe-app" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="random-user">
+                            <div class="work-text">
+                                <h3>Random User App</h3>
+                                <p>It is a React project and I used hooks in this project and fully functional components. Also, I get an API and use it in my project.</p>
+                                <a href="https://github.com/ersenozturk/react-random-app2" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://react-random-app2.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="firebase-blogApp">
+                            <div class="work-text">
+                                <h3>Firebase-blogApp</h3>
+                                <p>The blog web react-project, which was created using Firebase Auth for authentication and Firebase.</p>
+                                <a href="https://github.com/ersenozturk/FireBlogApp" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://fireblogapp-mikers.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="movie-app">
+                            <div class="work-text">
+                                <h3>Movie App</h3>
+                                <p>It is a react-app where you can register, log in, log out in authentication processes with Firebase.</p>
+                                <a href="https://github.com/ersenozturk/react-movie-app" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://firebase-react-movie-app.netlify.app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="countries">
+                            <div class="work-text">
+                                <h3>Country and Neighbours</h3>
+                                <p>The goal of this project is to make an api request from restcountries and to 
+                                    display the desired data about the countries.</p>
+                                <a href="https://github.com/ersenozturk/Javascript-Exercises/tree/main/country-neighbours" target="_blank"><button class="btn1"
+                                        type="button">GITHUB</button></a>
+                                <a href="https://ersenozturk.github.io/Javascript-Exercises/country-neighbours/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="weather-app">
+                            <div class="work-text">
+                                <h3>Weather App</h3>
+                                <p>Project aims to display current weather condition of searched city around the 
+                                    world with fetching Weather Api data.</p>
+                                <a href="https://github.com/ersenozturk/Javascript-Exercises/tree/main/weather-app" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://ersenozturk.github.io/Javascript-Exercises/weather-app/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="work-item" id="task-tracker">
+                            <div class="work-text">
+                                <h3>Task Tracker</h3>
+                                <p>It is a project you can add any task, remove whichever you want or selected completed any task.</p>
+                                <a href="https://github.com/ersenozturk/react-task-tracker" target="_blank"><button
+                                        class="btn1" type="button">GITHUB</button></a>
+                                <a href="https://ersenozturk.github.io/react-task-tracker/" target="_blank"><button class="btn2"
+                                        type="button">VIEW
+                                        PROJECT</button></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="p-p" id="pricing">
+            <h2>Process & Pricing</h2>
+            <div class="process">
+                <div class="card" id="card1">
+                    <h3 style="color: rgb(255, 0, 93);">CONSULTATION</h3>
+                    <p>Design ideas, site requirements and
+                        budget for the project are run through.
+                    </p>
+                    <p class="number">1</p>
+                </div>
+                <div class="card" id="card2">
+                    <h3 style="color: rgb(219, 205, 8);">PROPOSAL</h3>
+                    <p>Proposals are sent out, details are finalised
+                        and contract is formulated.
+                    </p>
+                    <p class="number">2</p>
+                </div>
+                <div class="card" id="card3">
+                    <h3 style="color: rgb(27, 180, 104);">DEVELOPMENT</h3>
+                    <p>Project gets underway and there are very frequent updates
+                        at this stage.
+                    </p>
+                    <p class="number">3</p>
+                </div>
+                <div class="card" id="card4">
+                    <h3 style="color: rgb(13, 62, 198);">DELIVERY</h3>
+                    <p>The completed product is approved and transferred into your
+                        possession.
+                    </p>
+                    <p class="number">4</p>
+                </div>
+            </div>
+            <div class="empty"></div>
+            <p class="price">Rates are project-specific; they are based on your budget, business requirements,
+                specifications and customization. Consultations are <strong>100% free</strong>. Get in touch
+                to be given a beautiful online presence that fits your budget.
+            </p>
+        </section>
+        <section class="contact-me" id="contact">
+            <h2>Get in touch</h2>
+            <h4>Just a call or text away..</h4>
+            <h5>Have a project in mind? Let's talk!</h5>
+            <div class="empty"></div>
+            <div class="reach-me">
+                <div class="trad">
+                    <i class="fas fa-phone-alt"><a href="tel: +905435827082">
+                            <p>(+90)543 582 70 82</p>
+                        </a></i>
+                    <i class="fas fa-envelope"><a href="mailto:joeyatteen@gmail.com">
+                            <p>70ozturkersen@gmail.com</p>
+                        </a></i>
+                    <i class="fas fa-map-marker-alt">
+                        <p>Izmir, Turkey</p>
+                    </i>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/ersenozturk" target="_blank"><i class="fab fa-github"></i><a></a>
+                        <a href="https://twitter.com/Ersenztrk6" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ersenozturk/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+
+                        <a href="https://wa.me/905435827082" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="empty emp2"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Ersen OZTURK. All Rights Reserved!</p>
+    </footer>
+    <button onclick="topFunction()" id="my-btn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
