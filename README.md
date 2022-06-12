@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">ToDo App</h1>
+<h1 align="center">Portfolio-Website-ersenozturk</h1>
 
 
 <div align="center">
@@ -15,18 +15,9 @@
 
 ## Table of Contents
 
-- [Overview](overview1.png)
 - [Built With](#built-with)
-- [Features](#features)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](overview1.png)
-![screenshot](overview2.png)
-![screenshot](overview3.png)
 
 ### Built With
 
